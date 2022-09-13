@@ -4,6 +4,12 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>true</ImplicitUsings>
         <IsBindingProject>true</IsBindingProject>
+        <Authors>Markus Palme</Authors>
+        <Description>iOS .NET 6 bindings for Lottie.</Description>
+        <PackageProjectUrl>https://github.com/markuspalme/LottieNet6</PackageProjectUrl>
+        <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/markuspalme/LottieNet6</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
