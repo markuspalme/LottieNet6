@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0-ios</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Lottie.iOS\Lottie.iOS.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Resources\DoneAnimation.json" />
+      <BundleResource Include="Resources\DoneAnimation.json" />
+    </ItemGroup>
+    
+</Project>
